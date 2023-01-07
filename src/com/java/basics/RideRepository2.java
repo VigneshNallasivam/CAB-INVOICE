@@ -1,0 +1,43 @@
+package com.java.basics;
+
+public class RideRepository2 
+{
+	int id;
+	   double totalDistance;
+	   double totalRidesDuration;
+
+	    public int getId() {
+	        return id;
+	    }
+
+	    public void setId(int id) {
+	        this.id = id;
+	    }
+
+	    public double getTotalDistance() {
+	        return totalDistance;
+	    }
+
+	    public void setTotalDistance(double totalDistance) {
+	        this.totalDistance = totalDistance;
+	    }
+
+	    public double getTotalRidesDuration() {
+	        return totalRidesDuration;
+	    }
+
+	    public void setTotalRidesDuration(double totalRidesDuration) {
+	        this.totalRidesDuration = totalRidesDuration;
+	    }
+
+	    public RideRepository2(int id, double totalDistance, double totalRidesDuration) {
+	        this.id = id;
+	        this.totalDistance = totalDistance;
+	        this.totalRidesDuration = totalRidesDuration;
+	    }
+
+	    public double getTotalRideDuration() {
+	        return getTotalRidesDuration();
+	    }
+
+}
